@@ -8,6 +8,9 @@ public class Main {
 
 		System.out.println(a);
 		System.out.println(b);
+		
+// commit message 수정
+		
 	}
 
 }
