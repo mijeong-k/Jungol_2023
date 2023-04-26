@@ -17,12 +17,19 @@ public class Main {
 		
 		
 		
+//		int a = 45;
+//		int b = 9;
+//		
+//		System.out.println("55 - 10 = " + a);
+//		System.out.println("2008 - 1999 = " + b);
+		
+		
 		int a = 45;
 		int b = 9;
 		
-		System.out.println("55 - 10 = " + a);
-		System.out.println("2008 - 1999 = " + b);
-		
+		System.out.printf("55 - 10 = %d\n", a);
+		System.out.printf("2008 - 1999 = %d", b);
+				
 		
 		
 //		String a = "55 - 10 = ";
