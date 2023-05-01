@@ -11,8 +11,9 @@ public class Main {
 		}
 		System.out.println();
 		
+		
 		//2. for배열문
-		int[] scores = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+		int[] scores = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};		
 		for(int n2:scores) {
 			System.out.print(n2++ +" ");
 		}
@@ -20,64 +21,65 @@ public class Main {
 		
 		
 		//3. for문
-		for(int i = 1; i < 16; i++) {
-			System.out.printf("%d ", i);
+		for(int n3 = 1; n3 < 16; n3++) {
+			System.out.printf("%d ", n3);
 		}
 		System.out.println();		
 		
 		
-		//3. for문 마지막 ? 없애기
-		for(int i = 1; i < 16; i++) {
-			System.out.print(i);
-			if(i<15) {
-			System.out.print("?");
+		//4. for문 마지막 공백 없애기
+		for(int n4 = 1; n4 < 16; n4++) {
+			System.out.print(n4);
+			if(n4<15) {
+			System.out.print(" ");
 			}
 		}
 		System.out.println();			
 		
 		
-		//3. for문 마지막 ? 없애기2
-		int sum = 1;
+		//5. for문 마지막 공백 없애기
+		int n5 = 1;
 
-	    while (sum <= 15) {
-	         System.out.print(sum + "?");
-	         sum++;
-	         if (sum == 15) {
-	            System.out.print(sum);
+	    while (n5 <= 15) {
+	         System.out.print(n5 + " ");
+	         n5++;
+	         if (n5 == 15) {
+	            System.out.print(n5);
 	            break;
 	         }
+	    }
 	 	System.out.println();		
 		
 		
-		//4. do while문
-		int n3 = 1;
+		//6. do while문
+		int n6 = 1;
 		do {
-			System.out.printf("%d ", n3++);
-		}while(n3<16);
+			System.out.printf("%d ", n6++);
+		}while(n6<16);
 		System.out.println();	
 		
 	
 		
-		//5. while, break문
-		int n4 =1;
+		//7. while, break문
+		int n7 =1;
 		while (true) {
-			System.out.print(n4+" ");
+			System.out.print(n7+" ");
 			
-			if(n4==15)
+			if(n7==15)
 				break;			
 				
-			n4+=1;
+			n7+=1;
 			
 		}
 		System.out.println();			
 		
 		
-		//6. while, continue문
-		int i=1;
-		while (i<16) {
-			System.out.print(i+" ");
-			i++;
-			if(i>=1)
+		//8. while, continue문
+		int n8=1;
+		while (n8<16) {
+			System.out.print(n8+" ");
+			n8++;
+			if(n8>=1)
 			continue;			
 		}
 		
@@ -88,7 +90,7 @@ public class Main {
 
 		
 	}
-}
+
 
 	
 	
