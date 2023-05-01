@@ -12,7 +12,14 @@ public class Main {
 		int cal = 20 - age;
 		String str = "adult";
 
-		if (age >= 20) {
+//		if (age >= 20) {
+//			System.out.println(str);
+//		} else {
+//			str = " years later";
+//			System.out.printf("%d%s\n", cal, str);
+//		}
+		
+		if (age >= 20 && age>=0) {
 			System.out.println(str);
 		} else {
 			str = " years later";
