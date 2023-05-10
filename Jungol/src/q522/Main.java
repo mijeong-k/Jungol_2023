@@ -7,16 +7,25 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int[] inp=new int[2];		
-		for(int i=0;i<inp.length;i++) {
-			inp[i]=sc.nextInt();
-		}
+//		int[] inp=new int[2];		
+//		for(int i=0;i<inp.length;i++) {
+//			inp[i]=sc.nextInt();
+//		}
+//		sc.close();
+//		
+//		int res1=(inp[0]==inp[1])? 1:0;
+//		int res2=(inp[0]!=inp[1])? 1:0;
+//		System.out.println(res1);
+//		System.out.println(res2);
+		
+		
+		int iA=sc.nextInt();
+		int iB=sc.nextInt();
 		sc.close();
 		
-		int res1=(inp[0]==inp[1])? 1:0;
-		int res2=(inp[0]!=inp[1])? 1:0;
-		System.out.println(res1);
-		System.out.println(res2);
+		boolean bS = (iA==iB);
+		System.out.println(bS);
+		System.out.println(!bS);
 		
 		
 //		int n1 = sc.nextInt();
