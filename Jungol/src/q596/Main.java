@@ -36,7 +36,7 @@ public class Main {
 //
 //		
 //		if (num < str.length()) {
-//			for (int i = str.length() - 1; i > (str.length() - 1) - num; i--) {
+//			for (int i = str.length() - 1; i >= str.length()-num; i--) {
 //				System.out.print(str.charAt(i));
 //			}
 //		} else {
